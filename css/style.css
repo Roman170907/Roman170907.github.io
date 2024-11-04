@@ -1,0 +1,474 @@
+*{
+    margin:0;
+    padding:0;
+}
+.contanier1{
+    width:1280px;
+    height:130px;
+    background-color: black;
+    position:absolute;
+    max-width: 100%;  
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+
+}
+.mobil_phone{
+    display: flex;
+    flex-direction: column;
+
+}
+.baran{
+    color:gray;
+    font-size: 16px;
+    border-left: 500px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    
+
+}
+.ru{
+    color:gray;
+    font-size: 16px;
+    border-left: 500px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    
+}
+.mobilni{
+    color:gray;
+    font-size: 16px;
+    border-left: 500px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    
+}
+.img{
+    width:140px;
+    height:130px;
+}
+.izh{
+    color:white;
+    font-size: 22px;
+    border-left: 500px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    
+}
+.pohta{
+    color:white;
+    font-size: 22px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.telefon{
+    color:white;
+    font-size: 22px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.shapka{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.cont{
+    width:1280px;
+    height:3100px;
+    background-color: black;
+    margin-top: 275px;
+    position: absolute;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width:100%;  
+    
+    
+
+}
+.mini_block{
+    background-color: #ffd740;
+    width:450px;
+    height:250px;
+    position:absolute;
+    margin-top: 200px;
+    border-top-left-radius:8%;
+    border-top-right-radius:8%;
+    -webkit-box-shadow: -11px -6px 27px -17px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -11px -6px 27px -17px rgba(0, 0, 0, 1);
+    box-shadow: -11px -6px 27px -17px rgba(0, 0, 0, 1);
+    max-width: 100%;  
+    
+}
+.catalog{
+    color:black;
+    position: absolute;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.instrumenti{
+    background-color: #ffd740;
+    width: 240px;
+    height:320px;
+    margin-top: 40px;
+    border-radius: 8%;
+    max-width: 15%;
+    max-height: 15%;  
+}
+    
+
+.sharik{
+    width:170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #ffd740;
+    position: absolute;
+    margin-top: 3420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 10%;  
+}
+.sorok{
+    font-size: 65px;
+    font-weight: 1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    
+}
+
+.uslovia{
+    width:1280px;
+    height:300px;
+    position: absolute;
+    background-color: black;
+    margin-top: 3630px;
+    max-width: 100%;  
+}
+.usl_arend{
+    color:black;
+    position: absolute;
+    font-size: 28px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.cantenier{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.odin{
+    color: #ffd740;
+  
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+    max-width: 100%; 
+}
+.svyaz{
+    color: white;
+  
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%; 
+    
+}
+.dva{
+    color: #ffd740;
+   
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+    max-width: 100%; 
+}
+.tri{
+    color: #ffd740;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+    max-width: 100%; 
+}
+.chetiri{
+    color: #ffd740;
+  
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+    max-width: 100%; 
+}
+.prie{
+    color: white;
+   
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    height: 100px;
+    max-width: 100%; 
+    
+    
+}
+.pred{
+    color: white;
+  
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    max-width: 100%; 
+
+    
+}
+.poluch{
+    color: white;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    max-width: 100%; 
+  
+    
+}
+.small_block{
+    background-color: #ffd740;
+    width:450px;
+    height:250px;
+    position:absolute;
+    margin-top: 3670px;
+    
+    border-top-left-radius:8%;
+    border-top-right-radius:8%;
+    -webkit-box-shadow: 15px -8px 15px -2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 15px -8px 15px -2px rgba(34, 60, 80, 0.2);
+box-shadow: 15px -8px 15px -2px rgba(34, 60, 80, 0.2);
+max-width: 100%;  
+}
+.nas{
+    background-color: #ffd740;
+    width:300px;
+    height:250px;
+    position:absolute;
+    margin-top: 4125px;
+    
+    border-top-left-radius:8%;
+    border-top-right-radius:8%;
+    max-width: 100%;  
+}
+.o_nas{
+    color:black;
+    position: absolute;
+    font-size: 28px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+
+}
+.last_box{
+    background-color: #d9d9d9;
+    position:absolute;
+    width:1280px;
+    height:250px;
+    margin-top: 4200px;
+    display: flex ;
+    justify-content: space-around;
+    max-width: 100%;  
+
+}
+.rab{
+    width :400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+
+}
+.kont{
+    width :400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.polez{
+    
+    margin-right:150px;
+    width:25px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    
+}
+.vk{
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:100px
+}
+.zubr{
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:135px
+}
+.time{
+    color:black;
+    position: absolute;
+    font-size: 28px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.poned{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+     font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:50px
+}
+.devyat_1{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:75px
+}
+.subbota{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:100px
+}
+.devyat_2{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:125px
+}
+.kontakti{
+    color:black;
+    position: absolute;
+    font-size: 28px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.tel_1{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:50px
+}
+.tel_2{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100px;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:85px
+}
+.pochta{
+    color:black;
+    position: absolute;
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-top:120px
+}
+.ssilka{ 
+    color:black;
+    position: absolute;
+    font-size: 28px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-right: 50px;
+}
+.obsh{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width: 100%;
+
+}
+.cait{
+        width:1280px ;
+        margin: 0 auto;
+} 
+.box_usl{
+    background-color: #ffd740;
+    width:450px;
+    height:250px;
+    position:absolute;
+    margin-top: 3550px;
+    
+    border-top-left-radius:8%;
+    border-top-right-radius:8%;
+    -webkit-box-shadow: 15px -8px 15px -2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 15px -8px 15px -2px rgba(34, 60, 80, 0.2);
+box-shadow: 15px -8px 15px -2px rgba(34, 60, 80, 0.2);
+max-width: 100%;  
+
+
+}
+.arenda{
+    color :black;
+    font-size: 28px;
+    font-weight:1000;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.one{
+    max-width: 100%; 
+    width:100px;
+}
+.two{
+    max-width: 100%; 
+    width:100px;
+}
+.three{
+    max-width: 100%; 
+    width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
